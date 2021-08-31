@@ -32,11 +32,11 @@ function App() {
       });
   }, []);
 
-  const posts = userPosts.map((user, index) => {
-    console.log(user.userId);
-  });
+  // const posts = userPosts.map((user, index) => {
+  //   console.log(user.userId);
+  // });
 
-  console.log(userPosts);
+  // console.log(userPosts);
 
   return (
     <div className="App">
