@@ -8,7 +8,6 @@ import UserPosts from "./UserPosts/UserPosts";
 function App() {
   const [userData, setUserData] = useState([]);
   const [userPosts, setUserPosts] = useState([]);
-  const [error, setError] = useState(null);
 
   useEffect(() => {
     axios("https://jsonplaceholder.typicode.com/users")
@@ -17,7 +16,6 @@ function App() {
       })
       .catch((error) => {
         console.error("Error loading data", error);
-        setError(error);
       });
   }, []);
 
@@ -28,7 +26,6 @@ function App() {
       })
       .catch((error) => {
         console.error("Error loading data", error);
-        setError(error);
       });
   }, []);
 
