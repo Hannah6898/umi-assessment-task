@@ -29,11 +29,14 @@ function App() {
       });
   }, []);
 
-  // const posts = userPosts.map((user, index) => {
-  //   console.log(user.userId);
-  // });
+  //Working on formatting data for the user posts
 
-  // console.log(userPosts);
+  // userPosts.map((user, index) => {
+  //   console.log(user.userId);
+  //   if (user.userId === userData.id) {
+  //     console.log(user.title);
+  //   }
+  // });
 
   return (
     <div className="App">

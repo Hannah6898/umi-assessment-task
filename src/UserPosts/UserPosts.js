@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 import "./UserPosts.css";
 
 export default function UserPosts(props) {
-  console.log(props.user);
-
   return (
     <div>
       <h2>Posts by name</h2>
