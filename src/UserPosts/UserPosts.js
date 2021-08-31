@@ -8,7 +8,9 @@ export default function UserPosts(props) {
   return (
     <div>
       <h2>Posts by name</h2>
-      <Link to="/">Go back</Link>
+      <Link className="back-link" to="/">
+        Go back
+      </Link>
       <p className="post-no">Number of posts:</p>
       <div className="container">
         <div className="user">
