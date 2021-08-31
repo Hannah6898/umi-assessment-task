@@ -1,8 +1,14 @@
 .Card {
   text-align: center;
-  max-width: 100px;
-  border: 1px black solid;
+  max-width: 100%;
   border-radius: 20px;
-  color: bisque;
-  background-color: green;
+  color: white;
+  background-color: rgb(14, 64, 17);
+  padding: 5px 20px;
+  margin: 10px 2px;
+}
+
+.Card a {
+  color: white;
+  text-decoration: none;
 }

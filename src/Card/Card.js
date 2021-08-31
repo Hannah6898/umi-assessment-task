@@ -1,12 +1,15 @@
 import React from "react";
 import "./Card.css";
+import { Link } from "react-router-dom";
 
-export default function Card() {
+export default function Card(props) {
   return (
     <div>
       <div className="Card">
-        <h2>Name</h2>
-        <p>Email</p>
+        <Link to="/userPosts">
+          <h3>{props.name}</h3>
+          <p>{props.email}</p>
+        </Link>
       </div>
     </div>
   );

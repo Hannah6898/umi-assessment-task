@@ -1,0 +1,12 @@
+body {
+  background-color: wheat;
+}
+
+h1 {
+  text-align: center;
+}
+.App .cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
